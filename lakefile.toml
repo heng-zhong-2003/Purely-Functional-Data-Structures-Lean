@@ -1,0 +1,10 @@
+name = "Purely-Functional-Data-Structures-Lean"
+version = "0.1.0"
+defaultTargets = ["purely-functional-data-structures-lean"]
+
+[[lean_lib]]
+name = "PFDS"
+
+[[lean_exe]]
+name = "pfds"
+root = "Main"
